@@ -42,7 +42,7 @@ src/
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/user-list-app.git
+   git clone https://github.com/omar-tounsi/
    cd user-list-app
    ```
 
