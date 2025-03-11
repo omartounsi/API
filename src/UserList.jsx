@@ -12,8 +12,9 @@ const UserList = () =>{
     }, [])
 
     return(
-        <div className="container" style={{display: "flex",flexDirection: 'column' , justifyContent: 'center', alignContent: 'center', height: '100vh', fontFamily: 'Quicksand'}}>
-            <h2>Users:</h2>
+        <div className="container" >
+            <div className="main-container">
+            <h2>User list:</h2>
             <table border="1" style={{ width: "100%"}}>
                 <thead>
                     <tr>
@@ -35,6 +36,8 @@ const UserList = () =>{
                 </tbody>
             </table>
         </div>
+        </div>
+        
     )
 }
 
